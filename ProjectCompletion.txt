@@ -1,0 +1,10 @@
+Submitted By:
+Abdulquadir Shaikh			009411350
+Nagesh Dali Venugopal		009273316
+
+
+Work Completed:
+
+1. The code passed simulation, ncverilog simulation, synthesis and post synthesis simulation successfully in Easy mode.
+
+2. The code passed simulation, ncverilog simulation, synthesis and post synthesis simulation successfully for all 32 Correlator. 

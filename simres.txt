@@ -1,0 +1,1154 @@
+ncverilog: 14.10-p001: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+file: tssc.sv
+	module worklib.test:sv
+		errors: 0, warnings: 0
+file: top.sv
+	module worklib.top:sv
+		errors: 0, warnings: 0
+file: ssc_gates.v
+	module worklib.sine:v
+		errors: 0, warnings: 0
+	module worklib.firstblock00_DW01_add_5:v
+		errors: 0, warnings: 0
+	module worklib.firstblock00_DW_mult_tc_1:v
+		errors: 0, warnings: 0
+	module worklib.firstblock00_DW01_sub_2:v
+		errors: 0, warnings: 0
+	module worklib.firstblock00_DW01_add_6:v
+		errors: 0, warnings: 0
+	module worklib.firstblock00_DW01_add_8:v
+		errors: 0, warnings: 0
+	module worklib.firstblock00_DW01_add_7:v
+		errors: 0, warnings: 0
+	module worklib.firstblock00_DW01_add_9:v
+		errors: 0, warnings: 0
+	module worklib.firstblock00_DW01_inc_1:v
+		errors: 0, warnings: 0
+	module worklib.firstblock00:v
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR3X4.tsbvlibp
+	module tc240c.CANR3X4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND3X4.tsbvlibp
+	module tc240c.COND3X4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAOR2X2.tsbvlibp
+	module tc240c.CAOR2X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/TMUX21INVprim.tsbvlibp
+	primitive tc240c.TMUX21INVprim:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/tsbMUXXprim.tsbvlibp
+	primitive tc240c.tsbMUXXprim:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/TMUX21prim.tsbvlibp
+	primitive tc240c.TMUX21prim:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/TADDR2Sprim.tsbvlibp
+	primitive tc240c.TADDR2Sprim:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/TADDR2Cprim.tsbvlibp
+	primitive tc240c.TADDR2Cprim:tsbvlibp
+		errors: 0, warnings: 0
+		Caching library 'tc240c' ....... Done
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+		Caching library 'tc240c' ....... Done
+  CIVDXL U4214 ( .A(n557), .Z0(n991) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,1036|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDXL.tsbvlibp,12): Z1
+
+  firstblock00_DW01_add_5 add_306 ( .A(CorrelationTemp000), .B({
+                                |
+ncelab: *W,CUVWSP (./ssc_gates.v,12526|32): 1 output port was not connected:
+ncelab: (./ssc_gates.v,5751): CO
+
+  CIVDXL U3149 ( .A(n633), .Z0(n774) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,7928|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDXL.tsbvlibp,12): Z1
+
+  firstblock00_DW01_sub_2 sub_289 ( .A({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 
+                                |
+ncelab: *W,CUVWSP (./ssc_gates.v,12543|32): 1 output port was not connected:
+ncelab: (./ssc_gates.v,10324): CO
+
+  firstblock00_DW01_add_6 add_226 ( .A(Chip00_DDS_Phase_adjust), .B(
+                                |
+ncelab: *W,CUVWSP (./ssc_gates.v,12550|32): 1 output port was not connected:
+ncelab: (./ssc_gates.v,10428): CO
+
+  firstblock00_DW01_add_8 add_221 ( .A(Freq00_DDS_Phase_adj), .B(
+                                |
+ncelab: *W,CUVWSP (./ssc_gates.v,12555|32): 1 output port was not connected:
+ncelab: (./ssc_gates.v,10796): CO
+
+  firstblock00_DW01_add_7 add_226_2 ( .A({N537, N536, N535, N534, N533, N532, 
+                                  |
+ncelab: *W,CUVWSP (./ssc_gates.v,12560|34): 1 output port was not connected:
+ncelab: (./ssc_gates.v,11164): CO
+
+  firstblock00_DW01_add_9 add_221_2 ( .A({N473, N472, N471, N470, N469, N468, 
+                                  |
+ncelab: *W,CUVWSP (./ssc_gates.v,12567|34): 1 output port was not connected:
+ncelab: (./ssc_gates.v,11522): CO
+
+  CFD2XL \multcorrelator000_reg[60]  ( .D(n1593), .CP(clk), .CD(n2963), .Q(
+                                   |
+ncelab: *W,CUVWSP (./ssc_gates.v,14360|35): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CFD2XL.tsbvlibp,7): QN
+
+  CFD2XL \multcorrelator000_reg[35]  ( .D(n1568), .CP(clk), .CD(n2960), .Q(
+                                   |
+ncelab: *W,CUVWSP (./ssc_gates.v,14368|35): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CFD2XL.tsbvlibp,7): QN
+
+  CFD2XL \multcorrelator000_reg[43]  ( .D(n1576), .CP(clk), .CD(n2961), .Q(
+                                   |
+ncelab: *W,CUVWSP (./ssc_gates.v,14370|35): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CFD2XL.tsbvlibp,7): QN
+
+  CFD2XL \multcorrelator000_reg[47]  ( .D(n1580), .CP(clk), .CD(n2961), .Q(
+                                   |
+ncelab: *W,CUVWSP (./ssc_gates.v,14372|35): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CFD2XL.tsbvlibp,7): QN
+
+  CFD2XL \multcorrelator000_reg[45]  ( .D(n1578), .CP(clk), .CD(n2961), .Q(
+                                   |
+ncelab: *W,CUVWSP (./ssc_gates.v,14374|35): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CFD2XL.tsbvlibp,7): QN
+
+  CFD2XL \multcorrelator000_reg[41]  ( .D(n1574), .CP(clk), .CD(n2960), .Q(
+                                   |
+ncelab: *W,CUVWSP (./ssc_gates.v,14376|35): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CFD2XL.tsbvlibp,7): QN
+
+  CFD2XL \multcorrelator000_reg[42]  ( .D(n1575), .CP(clk), .CD(n2960), .Q(
+                                   |
+ncelab: *W,CUVWSP (./ssc_gates.v,14378|35): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CFD2XL.tsbvlibp,7): QN
+
+  CFD2XL \multcorrelator000_reg[44]  ( .D(n1577), .CP(clk), .CD(n2961), .Q(
+                                   |
+ncelab: *W,CUVWSP (./ssc_gates.v,14380|35): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CFD2XL.tsbvlibp,7): QN
+
+  CFD2XL \multcorrelator000_reg[62]  ( .D(n1595), .CP(clk), .CD(n2963), .Q(
+                                   |
+ncelab: *W,CUVWSP (./ssc_gates.v,14382|35): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CFD2XL.tsbvlibp,7): QN
+
+  CFD2XL \multcorrelator000_reg[61]  ( .D(n1594), .CP(clk), .CD(n2963), .Q(
+                                   |
+ncelab: *W,CUVWSP (./ssc_gates.v,14384|35): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CFD2XL.tsbvlibp,7): QN
+
+  CFD2XL \multcorrelator000_reg[48]  ( .D(n1581), .CP(clk), .CD(n2961), .Q(
+                                   |
+ncelab: *W,CUVWSP (./ssc_gates.v,14390|35): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CFD2XL.tsbvlibp,7): QN
+
+  CIVDX1 U2232 ( .A(SampleCountTemp1[31]), .Z1(n2142) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14474|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2234 ( .A(SampleCount00[31]), .Z1(n2143) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14476|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2235 ( .A(SampleCountTemp2[30]), .Z1(n2145) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14477|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2237 ( .A(SampleCountTemp1[30]), .Z1(n2147) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14479|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2240 ( .A(SampleCountTemp2[29]), .Z1(n2150) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14482|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2242 ( .A(SampleCountTemp1[29]), .Z1(n2152) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14484|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2245 ( .A(SampleCountTemp2[28]), .Z1(n2155) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14487|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2247 ( .A(SampleCountTemp1[28]), .Z1(n2157) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14489|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2250 ( .A(SampleCountTemp2[27]), .Z1(n2160) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14492|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2252 ( .A(SampleCountTemp1[27]), .Z1(n2162) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14494|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2255 ( .A(SampleCountTemp2[26]), .Z1(n2165) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14497|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2257 ( .A(SampleCountTemp1[26]), .Z1(n2167) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14499|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2260 ( .A(SampleCountTemp2[25]), .Z1(n2170) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14502|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2262 ( .A(SampleCountTemp1[25]), .Z1(n2172) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14504|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2265 ( .A(SampleCountTemp2[24]), .Z1(n2175) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14507|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2267 ( .A(SampleCountTemp1[24]), .Z1(n2177) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14509|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2270 ( .A(SampleCountTemp2[23]), .Z1(n2180) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14512|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2272 ( .A(SampleCountTemp1[23]), .Z1(n2182) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14514|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2275 ( .A(SampleCountTemp2[22]), .Z1(n2185) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14517|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2277 ( .A(SampleCountTemp1[22]), .Z1(n2187) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14519|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2280 ( .A(SampleCountTemp2[21]), .Z1(n2190) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14522|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2282 ( .A(SampleCountTemp1[21]), .Z1(n2192) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14524|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2285 ( .A(SampleCountTemp2[20]), .Z1(n2195) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14527|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2287 ( .A(SampleCountTemp1[20]), .Z1(n2197) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14529|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2290 ( .A(SampleCountTemp2[19]), .Z1(n2200) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14532|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2292 ( .A(SampleCountTemp1[19]), .Z1(n2202) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14534|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2295 ( .A(SampleCountTemp2[18]), .Z1(n2205) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14537|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2297 ( .A(SampleCountTemp1[18]), .Z1(n2207) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14539|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2300 ( .A(SampleCountTemp2[17]), .Z1(n2210) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14542|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2302 ( .A(SampleCountTemp1[17]), .Z1(n2212) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14544|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2305 ( .A(SampleCountTemp2[16]), .Z1(n2215) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14547|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2307 ( .A(SampleCountTemp1[16]), .Z1(n2217) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14549|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2310 ( .A(SampleCountTemp2[15]), .Z1(n2220) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14552|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2312 ( .A(SampleCountTemp1[15]), .Z1(n2222) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14554|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2315 ( .A(SampleCountTemp2[14]), .Z1(n2225) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14557|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2317 ( .A(SampleCountTemp1[14]), .Z1(n2227) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14559|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2320 ( .A(SampleCountTemp2[13]), .Z1(n2230) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14562|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2322 ( .A(SampleCountTemp1[13]), .Z1(n2232) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14564|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2325 ( .A(SampleCountTemp2[12]), .Z1(n2235) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14567|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2327 ( .A(SampleCountTemp1[12]), .Z1(n2237) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14569|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2330 ( .A(SampleCountTemp2[11]), .Z1(n2240) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14572|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2332 ( .A(SampleCountTemp1[11]), .Z1(n2242) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14574|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2335 ( .A(SampleCountTemp2[10]), .Z1(n2245) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14577|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2337 ( .A(SampleCountTemp1[10]), .Z1(n2247) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14579|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2340 ( .A(SampleCountTemp2[9]), .Z1(n2250) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14582|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2342 ( .A(SampleCountTemp1[9]), .Z1(n2252) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14584|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2345 ( .A(SampleCountTemp2[8]), .Z1(n2255) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14587|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2347 ( .A(SampleCountTemp1[8]), .Z1(n2257) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14589|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2350 ( .A(SampleCountTemp2[7]), .Z1(n2260) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14592|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2352 ( .A(SampleCountTemp1[7]), .Z1(n2262) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14594|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2355 ( .A(SampleCountTemp2[6]), .Z1(n2265) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14597|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2357 ( .A(SampleCountTemp1[6]), .Z1(n2267) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14599|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2360 ( .A(SampleCountTemp2[5]), .Z1(n2270) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14602|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2362 ( .A(SampleCountTemp1[5]), .Z1(n2272) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14604|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2365 ( .A(SampleCountTemp2[4]), .Z1(n2275) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14607|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2367 ( .A(SampleCountTemp1[4]), .Z1(n2277) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14609|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2370 ( .A(SampleCountTemp2[3]), .Z1(n2280) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14612|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2372 ( .A(SampleCountTemp1[3]), .Z1(n2282) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14614|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2375 ( .A(SampleCountTemp2[2]), .Z1(n2285) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14617|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2377 ( .A(SampleCountTemp1[2]), .Z1(n2287) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14619|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2380 ( .A(SampleCountTemp2[1]), .Z1(n2290) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14622|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2382 ( .A(SampleCountTemp1[1]), .Z1(n2292) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14624|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2385 ( .A(SampleCountTemp2[0]), .Z1(n2295) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14627|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2387 ( .A(SampleCountTemp1[0]), .Z1(n2297) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14629|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2426 ( .A(PRN00[30]), .Z1(n2313) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14668|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2427 ( .A(PRN00[28]), .Z1(n2314) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14669|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2428 ( .A(PRN00[31]), .Z1(n2315) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14670|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2431 ( .A(PRN00[29]), .Z1(n2318) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14673|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2439 ( .A(Chip00_DDS_PhaseTemp002), .Z1(n2320) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14681|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2441 ( .A(PRN00Temp002[0]), .Z1(n2322) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14683|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2449 ( .A(PRN00Temp002[10]), .Z1(n2329) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14691|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2454 ( .A(PRN00[13]), .Z1(n2331) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14696|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2478 ( .A(PRN00Temp002[12]), .Z1(n2354) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14720|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2480 ( .A(PRN00Temp002[3]), .Z1(n2356) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14722|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2482 ( .A(PRN00Temp002[6]), .Z1(n2358) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14724|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2484 ( .A(PRN00Temp002[7]), .Z1(n2360) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14726|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2486 ( .A(PRN00Temp002[11]), .Z1(n2362) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14728|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2488 ( .A(PRN00Temp002[2]), .Z1(n2364) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14730|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2490 ( .A(PRN00Temp002[8]), .Z1(n2366) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14732|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2492 ( .A(PRN00Temp002[5]), .Z1(n2368) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14734|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2494 ( .A(PRN00Temp002[1]), .Z1(n2370) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14736|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2496 ( .A(PRN00Temp002[9]), .Z1(n2372) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14738|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2498 ( .A(PRN00Temp002[13]), .Z1(n2374) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14740|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2500 ( .A(PRN00Temp002[4]), .Z1(n2376) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14742|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2502 ( .A(oldhob002), .Z1(n2378) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14744|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2547 ( .A(PRN00[15]), .Z1(n2404) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14789|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2548 ( .A(PRN00[16]), .Z1(n2405) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14790|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2549 ( .A(PRN00[17]), .Z1(n2406) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14791|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2550 ( .A(PRN00[18]), .Z1(n2407) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14792|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2551 ( .A(PRN00[19]), .Z1(n2408) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14793|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2552 ( .A(PRN00[20]), .Z1(n2409) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14794|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2553 ( .A(PRN00[21]), .Z1(n2410) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14795|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2554 ( .A(PRN00[22]), .Z1(n2411) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14796|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2555 ( .A(PRN00[23]), .Z1(n2412) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14797|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2556 ( .A(PRN00[24]), .Z1(n2413) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14798|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2557 ( .A(PRN00[25]), .Z1(n2414) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14799|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2558 ( .A(PRN00[26]), .Z1(n2415) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14800|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2559 ( .A(PRN00[27]), .Z1(n2416) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14801|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2571 ( .A(PRN00[11]), .Z1(n2427) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14813|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2572 ( .A(PRN00[10]), .Z1(n2428) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14814|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2573 ( .A(PRN00[9]), .Z1(n2429) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14815|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2574 ( .A(PRN00[8]), .Z1(n2430) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14816|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2575 ( .A(PRN00[7]), .Z1(n2431) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14817|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2576 ( .A(PRN00[6]), .Z1(n2432) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14818|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2577 ( .A(PRN00[5]), .Z1(n2433) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14819|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2578 ( .A(PRN00[4]), .Z1(n2434) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14820|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2579 ( .A(PRN00[3]), .Z1(n2435) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14821|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2580 ( .A(PRN00[2]), .Z1(n2436) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14822|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2581 ( .A(PRN00[1]), .Z1(n2437) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14823|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2582 ( .A(PRN00[0]), .Z1(n2438) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14824|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2583 ( .A(PRN00[12]), .Z1(n2439) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14825|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2702 ( .A(SampleCountTemp3[31]), .Z1(n2527) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14944|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2704 ( .A(SampleCountTemp3[30]), .Z1(n2529) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14946|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2706 ( .A(SampleCountTemp3[29]), .Z1(n2531) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14948|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2708 ( .A(SampleCountTemp3[28]), .Z1(n2533) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14950|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2710 ( .A(SampleCountTemp3[27]), .Z1(n2535) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14952|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2712 ( .A(SampleCountTemp3[26]), .Z1(n2537) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14954|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2714 ( .A(SampleCountTemp3[25]), .Z1(n2539) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14956|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2716 ( .A(SampleCountTemp3[24]), .Z1(n2541) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14958|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2718 ( .A(SampleCountTemp3[23]), .Z1(n2543) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14960|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2720 ( .A(SampleCountTemp3[22]), .Z1(n2545) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14962|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2722 ( .A(SampleCountTemp3[21]), .Z1(n2547) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14964|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2724 ( .A(SampleCountTemp3[20]), .Z1(n2549) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14966|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2726 ( .A(SampleCountTemp3[19]), .Z1(n2551) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14968|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2728 ( .A(SampleCountTemp3[18]), .Z1(n2553) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14970|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2730 ( .A(SampleCountTemp3[17]), .Z1(n2555) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14972|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2732 ( .A(SampleCountTemp3[16]), .Z1(n2557) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14974|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2734 ( .A(SampleCountTemp3[15]), .Z1(n2559) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14976|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2736 ( .A(SampleCountTemp3[14]), .Z1(n2561) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14978|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2738 ( .A(SampleCountTemp3[13]), .Z1(n2563) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14980|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2740 ( .A(SampleCountTemp3[12]), .Z1(n2565) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14982|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2742 ( .A(SampleCountTemp3[11]), .Z1(n2567) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14984|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2744 ( .A(SampleCountTemp3[10]), .Z1(n2569) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14986|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2746 ( .A(SampleCountTemp3[9]), .Z1(n2571) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14988|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2748 ( .A(SampleCountTemp3[8]), .Z1(n2573) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14990|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2750 ( .A(SampleCountTemp3[7]), .Z1(n2575) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14992|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2752 ( .A(SampleCountTemp3[6]), .Z1(n2577) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14994|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2754 ( .A(SampleCountTemp3[5]), .Z1(n2579) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14996|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2756 ( .A(SampleCountTemp3[4]), .Z1(n2581) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,14998|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2758 ( .A(SampleCountTemp3[3]), .Z1(n2583) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,15000|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2760 ( .A(SampleCountTemp3[2]), .Z1(n2585) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,15002|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2762 ( .A(SampleCountTemp3[1]), .Z1(n2587) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,15004|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2764 ( .A(SampleCountTemp3[0]), .Z1(n2589) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,15006|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2857 ( .A(n1641), .Z1(n2673) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,15099|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2902 ( .A(oldhob001), .Z1(n2717) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,15144|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2906 ( .A(SampleCountTemp2[31]), .Z1(n2721) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,15148|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2926 ( .A(Chip00_DDS_PhaseTemp001), .Z1(n2741) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,15168|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U2950 ( .A(PRN00[14]), .Z1(n2762) );
+             |
+ncelab: *W,CUVWSP (./ssc_gates.v,15192|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+      default: $fatal("you checked a non existant global Morris");
+                                                               |
+ncelab: *W,STRINT (./tssc.sv,318|63): String literal argument supplied to integer parameter.
+    $fatal("Register read error\n");
+                                 |
+ncelab: *W,STRINT (./tssc.sv,332|33): String literal argument supplied to integer parameter.
+trw:	assert property(p_rw) else $fatal("\n\n\nRead and write both on\n\n\n");
+    	                                                                     |
+ncelab: *W,STRINT (./tssc.sv,284|74): String literal argument supplied to integer parameter.
+	Building instance overlay tables: .................. Done
+	Generating native compiled code:
+		tc240c.CANR11X1:tsbvlibp <0x660e2ce9>
+			streams:   0, words:     0
+		tc240c.CANR11X2:tsbvlibp <0x1b407289>
+			streams:   0, words:     0
+		tc240c.CANR11XL:tsbvlibp <0x025b856e>
+			streams:   0, words:     0
+		tc240c.CANR1X1:tsbvlibp <0x5d37561f>
+			streams:   0, words:     0
+		tc240c.CANR1X2:tsbvlibp <0x1ad285f7>
+			streams:   0, words:     0
+		tc240c.CANR1XL:tsbvlibp <0x5c956281>
+			streams:   0, words:     0
+		tc240c.CANR2X1:tsbvlibp <0x032ed863>
+			streams:   0, words:     0
+		tc240c.CANR2X2:tsbvlibp <0x0401a072>
+			streams:   0, words:     0
+		tc240c.CANR2XL:tsbvlibp <0x1969f1f8>
+			streams:   0, words:     0
+		tc240c.CANR3X1:tsbvlibp <0x3051811f>
+			streams:   0, words:     0
+		tc240c.CANR3X2:tsbvlibp <0x4182938e>
+			streams:   0, words:     0
+		tc240c.CANR3X4:tsbvlibp <0x63e4b86c>
+			streams:   0, words:     0
+		tc240c.CANR3XL:tsbvlibp <0x007e72a8>
+			streams:   0, words:     0
+		tc240c.CANR4CX1:tsbvlibp <0x2f8a5029>
+			streams:   0, words:     0
+		tc240c.CANR4CX2:tsbvlibp <0x31a08495>
+			streams:   0, words:     0
+		tc240c.CANR4CXL:tsbvlibp <0x67e1d78d>
+			streams:   0, words:     0
+		tc240c.CAOR1X1:tsbvlibp <0x11e1390b>
+			streams:   0, words:     0
+		tc240c.CAOR1X4:tsbvlibp <0x4ab2c8a9>
+			streams:   0, words:     0
+		tc240c.CAOR1XL:tsbvlibp <0x113f456d>
+			streams:   0, words:     0
+		tc240c.CAOR2X1:tsbvlibp <0x7111a724>
+			streams:   0, words:     0
+		tc240c.CAOR2X2:tsbvlibp <0x71e46f33>
+			streams:   0, words:     0
+		tc240c.CEN3X2:tsbvlibp <0x71a99776>
+			streams:   0, words:     0
+		tc240c.CENX1:tsbvlibp <0x11421e20>
+			streams:   0, words:     0
+		tc240c.CENX2:tsbvlibp <0x18931795>
+			streams:   0, words:     0
+		tc240c.CENX4:tsbvlibp <0x27350a7f>
+			streams:   0, words:     0
+		tc240c.CENXL:tsbvlibp <0x56cc6d6c>
+			streams:   0, words:     0
+		tc240c.CEO3X1:tsbvlibp <0x12bcbcbf>
+			streams:   0, words:     0
+		tc240c.CEO3X2:tsbvlibp <0x47285819>
+			streams:   0, words:     0
+		tc240c.CEO3XL:tsbvlibp <0x1a161ec4>
+			streams:   0, words:     0
+		tc240c.CEOX1:tsbvlibp <0x0ab67d2a>
+			streams:   0, words:     0
+		tc240c.CEOX2:tsbvlibp <0x1207769f>
+			streams:   0, words:     0
+		tc240c.CEOX4:tsbvlibp <0x20a96989>
+			streams:   0, words:     0
+		tc240c.CEOXL:tsbvlibp <0x5040cc76>
+			streams:   0, words:     0
+		tc240c.CFA1X1:tsbvlibp <0x68145852>
+			streams:   0, words:     0
+		tc240c.CFA1X2:tsbvlibp <0x038605ed>
+			streams:   0, words:     0
+		tc240c.CFA1XL:tsbvlibp <0x4d11a892>
+			streams:   0, words:     0
+		tc240c.CHA1X1:tsbvlibp <0x45714980>
+			streams:   0, words:     0
+		tc240c.CHA1XL:tsbvlibp <0x3eef29e3>
+			streams:   0, words:     0
+		tc240c.CMX2GX1:tsbvlibp <0x7442583e>
+			streams:   0, words:     0
+		tc240c.CMX2GXL:tsbvlibp <0x526249a9>
+			streams:   0, words:     0
+		tc240c.CMX2X1:tsbvlibp <0x4e8defa0>
+			streams:   0, words:     0
+		tc240c.CMX2XL:tsbvlibp <0x02e0c28e>
+			streams:   0, words:     0
+		tc240c.CMXI2X1:tsbvlibp <0x624e4ff0>
+			streams:   0, words:     0
+		tc240c.CMXI2X2:tsbvlibp <0x13a6b68a>
+			streams:   0, words:     0
+		tc240c.CMXI2XL:tsbvlibp <0x16a122de>
+			streams:   0, words:     0
+		tc240c.COAN1X1:tsbvlibp <0x7db78082>
+			streams:   0, words:     0
+		tc240c.COAN1XL:tsbvlibp <0x4ae4986d>
+			streams:   0, words:     0
+		tc240c.COND11X1:tsbvlibp <0x2150f846>
+			streams:   0, words:     0
+		tc240c.COND1X1:tsbvlibp <0x571f47b9>
+			streams:   0, words:     0
+		tc240c.COND1X2:tsbvlibp <0x6376489d>
+			streams:   0, words:     0
+		tc240c.COND1XL:tsbvlibp <0x244c5fa4>
+			streams:   0, words:     0
+		tc240c.COND2X1:tsbvlibp <0x178026f5>
+			streams:   0, words:     0
+		tc240c.COND2X2:tsbvlibp <0x569f1df6>
+			streams:   0, words:     0
+		tc240c.COND2XL:tsbvlibp <0x3fc43381>
+			streams:   0, words:     0
+		tc240c.COND3X1:tsbvlibp <0x2aa4d9ae>
+			streams:   0, words:     0
+		tc240c.COND3X4:tsbvlibp <0x623e3be6>
+			streams:   0, words:     0
+		tc240c.COND3XL:tsbvlibp <0x1f094d7a>
+			streams:   0, words:     0
+		tc240c.COND4CX1:tsbvlibp <0x4d078e8b>
+			streams:   0, words:     0
+		tc240c.COND4CXL:tsbvlibp <0x7ece97bc>
+			streams:   0, words:     0
+		tc240c.tsbCFD1QX1:tsbvlibp <0x27063d36>
+			streams:   0, words:     0
+		tc240c.tsbCFD1QX2:tsbvlibp <0x38374fa5>
+			streams:   0, words:     0
+		tc240c.tsbCFD1QX4:tsbvlibp <0x5a997483>
+			streams:   0, words:     0
+		tc240c.tsbCFD1QXL:tsbvlibp <0x77332eca>
+			streams:   0, words:     0
+		tc240c.tsbCFD2QX1:tsbvlibp <0x5e7c10fe>
+			streams:   0, words:     0
+		tc240c.tsbCFD2QX2:tsbvlibp <0x50772cd6>
+			streams:   0, words:     0
+		tc240c.tsbCFD2QX4:tsbvlibp <0x346d6486>
+			streams:   0, words:     0
+		tc240c.tsbCFD2QXL:tsbvlibp <0x63f800e7>
+			streams:   0, words:     0
+		tc240c.tsbCFD2XL:tsbvlibp <0x75597d48>
+			streams:   0, words:     0
+		worklib.\$unit_0x13ac758e :compilation_unit <0x71312cfa>
+			streams:   1, words: 126593
+		worklib.firstblock00:v <0x5af8881f>
+			streams:   1, words:   120
+		worklib.firstblock00_DW01_inc_1:v <0x2708b6be>
+			streams:   0, words:     0
+		worklib.firstblock00_DW01_sub_2:v <0x6a470b72>
+			streams:   0, words:     0
+		worklib.firstblock00_DW_mult_tc_1:v <0x45e43e5b>
+			streams:   0, words:     0
+		worklib.firstblock01:v <0x0b77c25f>
+			streams:  42, words: 29926
+		worklib.firstblock02:v <0x41056c03>
+			streams:  42, words: 29936
+		worklib.firstblock03:v <0x769315a7>
+			streams:  42, words: 29936
+		worklib.firstblock04:v <0x2c20bf40>
+			streams:  42, words: 29936
+		worklib.firstblock05:v <0x61ae68e4>
+			streams:  42, words: 29936
+		worklib.firstblock06:v <0x173c127d>
+			streams:  42, words: 29936
+		worklib.firstblock07:v <0x4cc9bc21>
+			streams:  42, words: 29936
+		worklib.firstblock08:v <0x6f74a281>
+			streams:  42, words: 30010
+		worklib.firstblock09:v <0x37e50f5e>
+			streams:  42, words: 29936
+		worklib.firstblock10:v <0x6393b82d>
+			streams:  42, words: 29936
+		worklib.firstblock11:v <0x192161c6>
+			streams:  42, words: 29936
+		worklib.firstblock12:v <0x4eaf0b6a>
+			streams:  42, words: 29936
+		worklib.firstblock13:v <0x043cb503>
+			streams:  42, words: 29936
+		worklib.firstblock14:v <0x39ca5ea7>
+			streams:  42, words: 29936
+		worklib.firstblock15:v <0x6f58084b>
+			streams:  42, words: 29936
+		worklib.firstblock16:v <0x24e5b1e4>
+			streams:  42, words: 29936
+		worklib.firstblock17:v <0x5a735b88>
+			streams:  42, words: 29936
+		worklib.firstblock18:v <0x10010521>
+			streams:  42, words: 29936
+		worklib.firstblock19:v <0x458eaec5>
+			streams:  42, words: 29936
+		worklib.firstblock20:v <0x713d5794>
+			streams:  42, words: 29936
+		worklib.firstblock21:v <0x26cb012d>
+			streams:  42, words: 29936
+		worklib.firstblock22:v <0x5c58aad1>
+			streams:  42, words: 29936
+		worklib.firstblock23:v <0x11e6546a>
+			streams:  42, words: 29936
+		worklib.firstblock24:v <0x4773fe0e>
+			streams:  42, words: 29936
+		worklib.firstblock25:v <0x7d01a7b2>
+			streams:  42, words: 29936
+		worklib.firstblock26:v <0x328f514b>
+			streams:  42, words: 29936
+		worklib.firstblock27:v <0x681cfaef>
+			streams:  42, words: 29936
+		worklib.firstblock28:v <0x1daaa488>
+			streams:  42, words: 29936
+		worklib.firstblock29:v <0x53384e2c>
+			streams:  42, words: 29936
+		worklib.firstblock30:v <0x7ee6f6fb>
+			streams:  42, words: 29936
+		worklib.firstblock31:v <0x3474a094>
+			streams:  42, words: 29936
+		worklib.sine:v <0x470c8233>
+			streams:   0, words:     0
+		worklib.test:sv <0x79055bb6>
+			streams:  53, words: 247091
+		worklib.top:sv <0x3be43e5c>
+			streams:  18, words:  2661
+	Loading native compiled code:     .................... Done
+	Building instance specific data structures.
+	Design hierarchy summary:
+		                         Instances  Unique
+		Modules:                    192119     177
+		UDPs:                        15861       7
+		Primitives:                1175769       9
+		Timing outputs:             176927      88
+		Registers:                    2971    2042
+		Scalar wires:               178092       -
+		Expanded wires:                979      65
+		Vectored wires:                 44       -
+		Named events:                    1       1
+		Always blocks:                  67      67
+		Initial blocks:                  8       8
+		Clocking blocks:                 1       1
+		Clocking items:                  8       8
+		Cont. assignments:              95     163
+		Pseudo assignments:             50      50
+		Timing checks:                8511    3725
+		Assertions:                      2       2
+		Compilation units:               2       2
+		SV Class declarations:           1       1
+		SV Class specializations:        1       1
+		Simulation timescale:         10ps
+	Writing initial simulation snapshot: worklib.top:sv
+Loading snapshot worklib.top:sv .................... Done
+ncsim> source /apps/cadence/INCISIV141/tools/inca/files/ncsimrc
+ncsim> run
+Starting basic testing of unit  0
+
+ncsim: *N,INFSEV (./tssc.sv,280): (time 502505 NS).
+top.t.b1
+Ending the run
+Simulation complete via $finish(1) at time 502505 NS + 0
+./tssc.sv:281 	$finish;
+ncsim> exit

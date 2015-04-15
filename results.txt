@@ -1,0 +1,13 @@
+ssc script run started on Wed Dec 10 21:02:34 2014
+run on machine eecad7.engr.sjsu.edu
+
+student names
+  Abdulquadir Shaikh  1350
+  Nagesh Dali Venugopal  3316
+    
+options syn False gates False easy False 
+VCS simulation worked
+NCverilog simulation worked
+Synthesis finished OK
+Gate level simulation worked
+Completed the project run
